@@ -1,2 +1,6 @@
 # gabriel-skayla-airflight
-#art futura project
+# Art futura project
+# Optimisation web - Airflight
+## Équipe
+* Skayla-Nélie Stimphil-Labranche
+* Gabriel Clerval
