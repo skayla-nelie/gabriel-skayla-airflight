@@ -1,0 +1,74 @@
+:root {
+  --filtre: #118de3;
+  --button-app: #60bffa;
+  --background-app: (13, 130, 225, 0.13);
+  --entete-app: #ffffff;
+  --searchbar-app: #ffffff;
+  --cardboard-app: #ffffff;
+  --font-app: #000000;
+}
+
+@font-face {
+  src: url("/css/Abeatbykai-8geZ.ttf") format("truetype");
+  font-family: "beats";
+}
+@font-face {
+  src: url("/css/OpenSans/OpenSans-Bold.ttf") format("truetype");
+  font-family: "open";
+}
+
+.title .app {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--font-app);
+}
+.popular.app {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--font-app);
+}
+.other .app {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--font-app);
+}
+.title .site {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--font-app);
+}
+.slogan .site {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--font-app);
+}
+.fonctionnalites .site {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--font-app);
+}
+/*-------------------------------------------
+#Styles Généraux
+---------------------------------------------*/
+header {
+}
+
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+footer {
+}
+
+/*-------------------------------------------
+#Section hero
+---------------------------------------------*/
