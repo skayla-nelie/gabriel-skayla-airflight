@@ -2,25 +2,137 @@
 <html lang="fr">
   <head>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
-      href="css/main.css"
-      rel="stylesheet"
-      href="css/styles-app.css"
-      rel="stylesheet"
     />
+    <link href="/art_futura/css/main.css" rel="stylesheet" />
+    <link href="/art_futura/css/styles-app.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Document</title>
   </head>
-  <body>
-    <h1 class="title app"></h1>
-    <h2 class="popular app"></h2>
-    <h3 class="other app"></h3>
+  <body >
+    <header>
+      <h1 class="title app"></h1>
+  
+    </header>
+    <div class="container">
+      <nav class="navbar fixed-top navbar-light navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="col-6 offset-2  order-2">
+            <h1 class="title app"></h1>
+            <a class="navbar-brand" href="#">
+              <img
+                src="/art_futura/Group 9.png"
+                width="119px"
+                height="119px"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div id="mainNav" class="collapse navbar-collapse- sm"></div>
+          <!-- Hamburger button -->
+          <div class="col-1  order-1">
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Affichage/masquage de la navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+          <!-- Navigation -->
+        <div class="col-2 offset-1 order-3">
+          <div id="mainNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a href="page-1.html" class="nav-link"
+                  >
+                  <img src="/art_futura/Ellipse 1.png" alt="logo" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+    <main>
+
+      <div class="container">
+        <div class="row">
+<input class="form-control form-control-lg " list="datalistOptions" id="exampleDataList" placeholder="Rehercher une oeuvre, un artiste... " >
+<i class="bi bi-search" style="font-size: 2rem; color: #347add;"></i>
+<datalist id="datalistOptions">
+  <option value="San Francisco">
+  <option value="New York">
+  <option value="Seattle">
+  <option value="Los Angeles">
+  <option value="Chicago">
+    
+</datalist>
+
+        </div>
+        <div class="row one">
+          <div class="container">
+          </br>
+            <ul>
+
+              <li>
+                <button type="button" class="btn btn-primary"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+          Toutes
+        </button>
+        <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Installations intéracitve
+</button>
+<button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Concert
+</button>
+<button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+ Performance
+</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="fixed-bottom ">
+      <div class="container-fluid">
+        <div class="tim">
+          Profil fictif réalisé dans le cadre du cours
+      <br>
+      Optimisation web 582-424MO. UI de l'app créé par
+      <br>
+      Skayla-Nélie Stimphil-Labranche
+        <a href="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg">
+          <img  src="/art_futura/logo_09.svg" width="200px"    alt="">
+        </div>
+        </a>
+    </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

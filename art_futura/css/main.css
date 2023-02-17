@@ -1,6 +1,6 @@
 :root {
   --filtre: #118de3;
-  --button-app: #60bffa;
+  --btn-primary: #118de3;
   --background-app: (13, 130, 225, 0.13);
   --entete-app: #ffffff;
   --searchbar-app: #ffffff;
@@ -16,7 +16,19 @@
   src: url("/css/OpenSans/OpenSans-Bold.ttf") format("truetype");
   font-family: "open";
 }
-
+.form-control-lg {
+  font-family: "Abeatbykai";
+}
+.btn-primary {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(--btn-primary);
+  margin: 5px;
+  border-radius: 20px;
+  font-family: "open sans";
+  color: #ffffff;
+  box-shadow: 2px 2px 1px #17547a;
+}
 .title .app {
   font-size: 12px;
   font-weight: bold;

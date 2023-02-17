@@ -1,6 +1,60 @@
 /*-------------------------------------------
 #Styles Généraux
 ---------------------------------------------*/
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 4px 40px 0px black;
+}
+
+footer {
+  background-color: #3b5fb1;
+  box-shadow: 0 -4px 40px 0px black;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+  color: #ffffff;
+}
+.navbar-expand-sm .navbar-collapse {
+  flex-basis: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.col-6 {
+  flex-basis: auto;
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: #0d82e12c;
+}
+
+.form-control-lg {
+  box-shadow: 0 15px 40px 0px black;
+  min-height: calc(1.5em + (1rem + 2px));
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 233.3rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bi-search {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  right: 110px;
+  top: 185px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.tim {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*-------------------------------------------
 #Section hero
