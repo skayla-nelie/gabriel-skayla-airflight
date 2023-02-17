@@ -1,85 +1,95 @@
 :root {
-  --filtre: #118de3;
-  --btn-primary: #118de3;
-  --background-app: (13, 130, 225, 0.13);
-  --entete-app: #ffffff;
-  --searchbar-app: #ffffff;
-  --cardboard-app: #ffffff;
-  --font-app: #000000;
+    --filtre: #118de3;
+    --btn-primary: #118de3;
+    --background-app: (13, 130, 225, 0.13);
+    --entete-app: #ffffff;
+    --searchbar-app: #ffffff;
+    --cardboard-app: #ffffff;
+    --font-app: #000000;
 }
 
 @font-face {
-  src: url("/css/Abeatbykai-8geZ.ttf") format("truetype");
-  font-family: "beats";
+    src: url("/css/Abeatbykai-8geZ.ttf") format("truetype");
+    font-family: "beats";
 }
+
 @font-face {
-  src: url("/css/OpenSans/OpenSans-Bold.ttf") format("truetype");
-  font-family: "open";
+    src: url("/css/OpenSans/OpenSans-Bold.ttf") format("truetype");
+    font-family: "open";
 }
+
 .form-control-lg {
-  font-family: "Abeatbykai";
+    font-family: "Abeatbykai";
 }
+
 .btn-primary {
-  font-size: 12px;
-  font-weight: bold;
-  background-color: var(--btn-primary);
-  margin: 5px;
-  border-radius: 20px;
-  font-family: "open sans";
-  color: #ffffff;
-  box-shadow: 2px 2px 1px #17547a;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--btn-primary);
+    margin: 5px;
+    border-radius: 20px;
+    font-family: "open sans";
+    color: #ffffff;
+    box-shadow: 2px 2px 1px #17547a;
 }
+
 .title .app {
-  font-size: 12px;
-  font-weight: bold;
-  color: var(--font-app);
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--font-app);
 }
+
 .popular.app {
-  font-size: 15px;
-  font-weight: bold;
-  color: var(--font-app);
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--font-app);
 }
+
 .other .app {
-  font-size: 15px;
-  font-weight: bold;
-  color: var(--font-app);
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--font-app);
 }
+
 .title .site {
-  font-size: 40px;
-  font-weight: bold;
-  color: var(--font-app);
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--font-app);
 }
+
 .slogan .site {
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--font-app);
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--font-app);
 }
+
 .fonctionnalites .site {
-  font-size: 40px;
-  font-weight: bold;
-  color: var(--font-app);
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--font-app);
 }
+
+
 /*-------------------------------------------
 #Styles Généraux
 ---------------------------------------------*/
-header {
-}
 
-h1 {
-}
-h2 {
-}
-h3 {
-}
-h4 {
-}
-h5 {
-}
-h6 {
-}
+header {}
 
-footer {
-}
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+footer {}
+
 
 /*-------------------------------------------
 #Section hero
