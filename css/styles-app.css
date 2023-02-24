@@ -34,26 +34,24 @@ body {
   font-size: 1.25rem;
   border-radius: 233.3rem;
 }
-.row {
+
+
+li {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.bi-search {
-  position: absolute;
-  display: flex;
-  justify-content: flex-end;
-  right: 110px;
-  top: 185px;
-}
-ul {
-  display: flex;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
   list-style-type: none;
 }
 .tim {
   display: flex;
   justify-content: space-between;
+}
+.second {
+  width:max-content;
+  display: flex;
+  flex-wrap: nowrap;
+
 }
 
 /*-------------------------------------------
