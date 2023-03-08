@@ -23,10 +23,13 @@
 }
 
 .footer {
-    
-        background-color: #3b5fb1;
-        color: #ffffff;
-     
+    background-color: #3b5fb1;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px -2px black;
 }
 
 .fonction {
