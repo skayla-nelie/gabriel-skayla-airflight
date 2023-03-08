@@ -136,8 +136,10 @@ footer {
 .filtres {
   overflow: hidden;
 }
+
 .card-body {
   height: 20vh;
+  width: 156px;
 }
 /*-----------------1221--------------------------
 #Section hero
