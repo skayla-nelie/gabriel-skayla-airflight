@@ -3,12 +3,12 @@
 ---------------------------------------------*/
 .navbar {
   background-color: #ffffff;
-  box-shadow: 0 4px 40px 0px black;
+  box-shadow: 0 2px 5px -2px black;
 }
 
 footer {
   background-color: #3b5fb1;
-  box-shadow: 0 -4px 40px 0px black;
+  box-shadow: 0 -4px 20px -5px black;
   padding: 1rem;
   margin: 1rem 0 0 0;
   color: #ffffff;
@@ -27,6 +27,8 @@ body {
   background-color: #0d82e12c;
 }
 
+element.style {
+}
 .form-control-lg {
   box-shadow: 0 15px 40px 0px black;
   min-height: calc(1.5em + (1rem + 2px));
@@ -34,7 +36,40 @@ body {
   font-size: 1.25rem;
   border-radius: 233.3rem;
 }
-
+.form-control-lg {
+  font-family: "Abeatbykai";
+}
+.form-control-lg {
+  min-height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+.form-control {
+  position: relative;
+  top: -70px;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control-lg {
+  box-shadow: 0 5px 8px -5px black;
+  min-height: calc(1.5em + (1rem + 2px));
+  padding: 0.5rem 1rem;
+  font-size: 13px;
+  border-radius: 233.3rem;
+}
 
 li {
   display: flex;
@@ -48,12 +83,62 @@ li {
   justify-content: space-between;
 }
 .second {
-  width:max-content;
+  width: max-content;
   display: flex;
   flex-wrap: nowrap;
-
+}
+.navbar .container-fluid {
+  display: flex;
+  align-items: flex-start;
+  height: 73px;
+  justify-content: space-between;
+}
+.profil {
+  vertical-align: middle;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 5px;
 }
 
-/*-------------------------------------------
+.logo {
+  position: relative;
+  top: -40px;
+  width: 150px;
+  height: 150px;
+}
+.navbar-toggler {
+  line-height: 3;
+  color: #118de3;
+  background-color: transparent;
+  border: var(--bs-border-width) none var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.bi-search {
+  position: absolute;
+  top: 103px;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 16px 20px 16px;
+}
+.filtres {
+  overflow: hidden;
+}
+.card-body {
+  height: 20vh;
+}
+/*-----------------1221--------------------------
 #Section hero
----------------------------------------------*/
+---------------------------------------------*/ ;

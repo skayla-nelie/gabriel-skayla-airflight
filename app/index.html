@@ -16,44 +16,83 @@
 
 <body>
   <header>
-    <h1 class="title app"></h1>
+  
 
   </header>
 
-  <nav class="navbar fixed-top navbar-light  bg-body-tertiary">
+  <nav class="navbar fixed-top navbar-light  bg-body-tertiary"
+  style="
+  padding-right: 25px;
+  padding-left: 0px";
+>
     <div class="container-fluid">
 
         <!-- Hamburger button -->
 
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
-          aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-    
-
-        <a class="navbar-brand" href="#">
-          <h1 class="title app"><img src="../assets/Group 9.png" width="119px" height="119px" alt="Logo Art Futura" /></h1>
-        </a>
-
-        <div> <img src="../assets/Ellipse 1.png" alt="logo" /></div>
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+   
+        <div class="navbar-brand" href="#" style="
+        height: 80px;"
+    >
+        <img class="logo" src="../assets/Group 9.png" alt="Logo Art Futura" />
+        </div>
+        
+        <div> <img class="profil" src="../assets/Ellipse 1.png" alt="profil" /></div>
 
       
       
 
         <!-- Navigation -->
+    
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Programmation</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Oeuvres</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Présentation des artistes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Amis sur cartes interactive</a>
+                    </li>
+                 
 
-        <div id="mainNav" class="collapse navbar-collapse">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a href="page-1.html" class="nav-link">
-                
-              </a>
-            </li>
+
+<!----
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Autres
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                -->
+                </div>
+            </div>
           </ul>
-        </div>
-
-
-    </div>
+        
+      </div>
   </nav>
   </div>
 
@@ -66,45 +105,96 @@
   </br>
 
   <main>
+    <div class="container filtre">    
+    <section class="search">
+    <input class="form-control form-control-lg " list="datalistOptions" id="exampleDataList"
+        placeholder="    Rehercher une oeuvre, un artiste... " >
+       <i class="bi bi-search" style="font-size:20px; padding: 0 15px 0 15px; color: #347add;"></i>
 
-    <div class="container">
-      <div class="container">
-        <input class="form-control form-control-lg " list="datalistOptions" id="exampleDataList"
-        placeholder="Rehercher une oeuvre, un artiste... ">
-        <i class="bi bi-search" style="font-size: 2rem; color: #347add;"></i>
         <datalist id="datalistOptions">
           <option value="San Francisco">
           <option value="New York">
           <option value="Seattle">
           <option value="Los Angeles">
           <option value="Chicago">
-        </datalist>
+        </datalist>  
 
-      </div>
-        <div class="container">
-          </br>
-          <ul>
+     </section>   
 
+          <section>
+  <div class="row">  
+    <div class="filtres">   
+    <ul>
             <li>
-              <button type="button" class="btn btn-primary"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                Toutes
-              </button>
-              <button type="button" class="btn btn-primary second"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                Installations interactive
-              </button>
-              <button type="button" class="btn btn-primary"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                Concert
-              </button>
-              <button type="button" class="btn btn-primary"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                Performance
-              </button>
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                
+                  <button type="button" class="btn btn-primary">Toutes</button>
+                </div>
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                 
+                    <button type="button" class="btn btn-primary" style="
+                    width: 176px;
+                ">Installations interactives</button>
+                  </div>
+                  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+               
+                      <button type="button" class="btn btn-primary">Concert</button>
+                    </div>
+                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                   
+                        <button type="button" class="btn btn-primary">Performances</button>
+                      </div>
+                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    
+                          <button type="button" class="btn btn-primary">AR / VR</button>
+                        </div>
+                 </div>     
+              </div>
             </li>
+  
           </ul>
-        </div>
+       </div>
+
+          </section>
+          <section class="card">
+            <div class="row">  
+              <h2>En vedette</h2>
+              <div class="col-4">  
+                <span class="card">
+                  <img src="../assets/" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </span>
+              </div>
+              <div class="col-4">  
+                <span class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </span>
+              </div>
+              <div class="col-4">  
+                <span class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </section>
+   </div>                 
+       
+
+   
      
     </div>
 
@@ -112,17 +202,26 @@
 
   <footer class="fixed-bottom ">
     <div class="container-fluid">
-      <div class="tim">
+      <div class="row">
+        <div class="col sm-8">
         Profil fictif réalisé dans le cadre du cours
         <br>
         Optimisation web 582-424MO. UI de l'app créé par
         <br>
         Skayla-Nélie Stimphil-Labranche
+    </br>
+  </br>
+</br>
+
+</div>
+<div class="row">
+      <div class="col sm-4">
         <a href="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg">
-          <img src="/art_futura/logo_09.svg" width="200px" alt="">
+          <img src="../assets/logo_09.svg" width="200px"  alt="">
       </div>
       </a>
     </div>
+  </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
