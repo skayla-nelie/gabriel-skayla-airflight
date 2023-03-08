@@ -137,10 +137,16 @@ footer {
   overflow: hidden;
 }
 
+.card {
+  background-color: white;
+  border: none;
+  width: 156px;
+}
 .card-body {
   height: 20vh;
   width: 156px;
 }
+
 /*-----------------1221--------------------------
 #Section hero
 ---------------------------------------------*/ ;
