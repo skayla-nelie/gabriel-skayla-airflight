@@ -146,6 +146,9 @@ footer {
   border-radius: 17px;
   text-align: center;
 }
+.card:hover {
+  background-color: rgb(177, 209, 249);
+}
 .card img {
   height: 20vh;
   object-fit: contain;
@@ -159,6 +162,14 @@ footer {
 }
 .card-text {
   margin-bottom: 5px;
+}
+.d-flex img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.bi-chevron-right {
+  color: #118de3;
 }
 /*-----------------1221--------------------------
 #Section hero
