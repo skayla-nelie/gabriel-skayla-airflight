@@ -25,10 +25,9 @@ footer {
 }
 body {
   background-color: #0d82e12c;
+  height: 1695px;
 }
 
-element.style {
-}
 .form-control-lg {
   box-shadow: 0 15px 40px 0px black;
   min-height: calc(1.5em + (1rem + 2px));
@@ -46,8 +45,6 @@ element.style {
   border-radius: 0.5rem;
 }
 .form-control {
-  position: relative;
-  top: -70px;
   width: 100%;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -89,6 +86,7 @@ li {
 }
 .navbar .container-fluid {
   display: flex;
+  width: 414px;
   align-items: flex-start;
   height: 73px;
   justify-content: space-between;
@@ -124,10 +122,7 @@ li {
   background-position: center;
   background-size: 100%;
 }
-.bi-search {
-  position: absolute;
-  top: 103px;
-}
+
 footer {
   font-size: 12px;
   text-align: center;
@@ -140,11 +135,18 @@ footer {
 .card {
   background-color: white;
   border: none;
-  width: 156px;
+  width: 200px;
+  height: 300px;
+  border-radius: 17px;
+  text-align: center;
 }
-.card-body {
+.card img {
   height: 20vh;
-  width: 156px;
+  object-fit: contain;
+  object-position: center;
+}
+.overflow {
+  overflow: hidden;
 }
 
 /*-----------------1221--------------------------
