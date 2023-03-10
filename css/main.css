@@ -1,6 +1,7 @@
 :root {
   --filtre: #118de3;
   --btn-primary: #118de3;
+  --btn-secondary: #60bffa;
   --background-app: (13, 130, 225, 0.13);
   --entete-app: #ffffff;
   --searchbar-app: #ffffff;
@@ -32,7 +33,16 @@
   color: #ffffff;
   box-shadow: 2px 2px 1px #17547a;
 }
-
+.btn-secondary {
+  font-size: 12px;
+  font-weight: normal;
+  background-color: var(--btn-primary);
+  margin: 5px;
+  border-radius: 20px;
+  font-family: "open sans";
+  color: #ffffff;
+  box-shadow: 2px 2px 1px #17547a;
+}
 .title .app {
   font-size: 12px;
   font-weight: bold;
