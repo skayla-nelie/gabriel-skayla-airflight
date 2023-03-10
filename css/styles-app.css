@@ -143,6 +143,7 @@ footer {
   border: none;
   width: 200px;
   height: 300px;
+
   border-radius: 17px;
   text-align: center;
 }
@@ -167,9 +168,28 @@ footer {
   width: 30px;
   height: 30px;
   border-radius: 50px;
+  background-color: #212529;
 }
 .bi-chevron-right {
   color: #118de3;
+}
+#cards {
+  width: 140%;
+  overflow-x: hidden;
+}
+#other .card {
+  width: 376px;
+}
+#other .card img {
+  height: 20vh;
+  object-fit: fill;
+  object-position: center;
+}
+#other .d-flex img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #212529;
 }
 /*-----------------1221--------------------------
 #Section hero
