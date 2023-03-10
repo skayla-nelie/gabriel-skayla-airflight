@@ -68,6 +68,12 @@ body {
   border-radius: 233.3rem;
 }
 
+.bi-search {
+  font-size: 20px;
+  padding: 0 15px 0 15px;
+  color: #347add;
+}
+
 li {
   display: flex;
   flex-wrap: nowrap;
@@ -148,7 +154,12 @@ footer {
 .overflow {
   overflow: hidden;
 }
-
+.fs-6 {
+  font-size: 10px !important;
+}
+.card-text {
+  margin-bottom: 5px;
+}
 /*-----------------1221--------------------------
 #Section hero
 ---------------------------------------------*/ ;
