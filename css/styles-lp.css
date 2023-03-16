@@ -70,9 +70,12 @@
         height: 100%;
     }
 }
+
 .card:hover {
     background-color: rgb(177, 209, 249);
-  }
+}
+
+.infolettre {}
 
 
 /*-------------------------------------------
