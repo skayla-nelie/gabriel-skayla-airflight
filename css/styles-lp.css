@@ -14,6 +14,7 @@
 
 .iframe {
     width: 100%;
+    height: auto;
 }
 
 .slogan {
@@ -81,7 +82,10 @@
 
 .infolettre {
     background-image: url("assets/infolettrebg.jpg");
-    block-size: 100%;
+}
+
+.faq {
+    background-image: url("assets/infolettrebg.jpg");
 }
 
 

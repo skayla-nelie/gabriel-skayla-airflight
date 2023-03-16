@@ -41,14 +41,14 @@
                             </li>
                         </span>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Installations interactive</a>
+                            <a class="nav-link" href="#">Voir plus</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Concert</a>
                         </li>
                         <span>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Voir plus</a>
+                                <a class="nav-link" href="#">Installations interactive</a>
                             </li>
                         </span>
                     </ul>
@@ -86,10 +86,14 @@
                         <h2 class="slogan display-3 text-lg-center mb-3 mb-md-5">LE FUTUR N'A JAMAIS ÉTÉ AUSSI PROCHE</h2>
 
                     </div>
-                    <div class="col-lg-3 iframe">
-                        <iframe src="app/index.html" title="description"></iframe>
+                    <div class="col-lg-3 iframe embed-responsive embed-responsive-5by9">
+                        <iframe class="application" src="app/index.html"></iframe>
                     </div>
+
                 </div>
+                <button type="button" class="btn btn-primary">
+                    Téléchargez maintenant
+                  </button>
             </div>
 
             <div class="row justify-content-center">
@@ -186,12 +190,22 @@
                     </div>
                 </div>
 
-
-
-
-
-
             </div>
+            <section id="voirplus">
+                <h2 class="voirplus text-center"> Prévisualisez l'interface de l'appli</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src=""></div>
+                        <div class="swiper-slide"><img src=""></div>
+                        <div class="swiper-slide"><img src=""></div>
+
+
+
+                    </div>
+
+
+                </div>
+            </section>
 
             <section class="container section-testimonials bg-info-subtle p-3 ">
                 <h2 class="Témoignages text-center"> Témoignages</h2>
@@ -304,9 +318,9 @@
             <br>
 
 
-            <section class="container FAQ bg-light">
-                <div class=" fonction display-5 text-lg-center mb-3 mb-md-5 bg-light">FAQ - Foire aux questions</div>
-                <div class="accordion accordion-flush" id="accordionFlushExample">
+            <section class="container faq bg-light">
+                <h2 class="faq text-center"> FAQ - Foire aux questions</h2>
+                <div class="accordion " id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="Question-one">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
@@ -353,7 +367,7 @@
                         <p>Abonnez-vous a notre infolettre pour recevoir des nouvelles sur les mises à jour et nouvelles fonctionnalités de l'appli, en plus de recevoir en primer les détails des prochaines éditions du festival.</p>
                         <div class="  text-lg-center mb-3 mb-md-5">
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Je mabonne
+                                Je m'abonne
                               </button>
                         </div>
 
