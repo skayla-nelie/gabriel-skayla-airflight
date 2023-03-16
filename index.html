@@ -81,8 +81,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col sm">
-                        <iframe src="url" title="description"></iframe>
+                    <div class="col sm iframe">
+                        <iframe src="app/index.html" title="description"></iframe>
                     </div>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                     <br>
                     <br>
 
-                    <section class="container section-testimonials ">
+                    <section class="container section-testimonials bg-info-subtle ">
                         <div class=" fonction display-5 text-lg-center mb-3 mb-md-5">Témoignages</div>
                         <div class="row justify-content-center">
                             <div class="col" style="max-width: 250px;">
@@ -258,7 +258,7 @@
                         </div>
 
                     </section>
-                    <div class="container FAQ">
+                    <section class="container FAQ">
                         <div class=" fonction display-5 text-lg-center mb-3 mb-md-5">FAQ - Foire aux questions</div>
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
@@ -292,7 +292,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
                 </div>
             </div>
@@ -302,9 +302,11 @@
                 <div class="row">
                     <div class="col">
                         <h2 class="title text-lg-center">Infolettre </h2>
-                        <p>Abonnez-vous a notre infolettre pour recevoir des nouvelles sur les mises-a-jour et nouvelles fonctionnalités de l'appli, en plus de recevoir en primer les détails des prochaines éditions du festival.</p>
+                        <p>Abonnez-vous a notre infolettre pour recevoir des nouvelles sur les mises à jour et nouvelles fonctionnalités de l'appli, en plus de recevoir en primer les détails des prochaines éditions du festival.</p>
                         <div class="  text-lg-center mb-3 mb-md-5">
-                            <button>Je mabonne</button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="modal-dialog">
+                                Je m'abonne
+                              </button>
                         </div>
 
 
@@ -315,6 +317,25 @@
                 </div>
 
 
+            </div>
+
+            <div class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Restez informé*!</h2>
+                            <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la
+                        fenêtre"></button>
+                            <div class="modal-body">
+                                <p>Message de ma fenêtre</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn" data-bs-dismiss="modal">Annuler</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
