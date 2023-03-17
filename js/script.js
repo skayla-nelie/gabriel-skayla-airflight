@@ -16,7 +16,8 @@ var swiper = new Swiper('.swiper-container', {
         clickable: true,
     },
 }); ===
-=== =
+===
+=
 const swiper = new Swiper(".swiper-filters", {
     // Optional parameters
     direction: "horizontal",
@@ -32,4 +33,6 @@ const swipers = new Swiper(".swiper-featured-artworks", {
     spaceBetween: -800,
     speed: 600,
 }); >>>
->>> > b72ee4673cb5d85156a8cd998457fa69dfc804ae
+>>>
+>
+b72ee4673cb5d85156a8cd998457fa69dfc804ae
