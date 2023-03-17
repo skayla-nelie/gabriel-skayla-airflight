@@ -84,16 +84,15 @@ body {
   padding: 0 15px 0 15px;
   color: #347add;
 }
-ul {
-  padding: 0;
+.swiper-wrapper {
+  position: relative;
+  top: 10px;
+  width: auto;
 }
-
-li {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
+.swiper-slide {
+  position: relative;
+  top: 10px;
+  width: auto;
 }
 .tim {
   display: flex;
@@ -298,6 +297,7 @@ a {
   text-align: start;
   font-family: "open";
   border-radius: 5px 5px 5px 5px;
+  background-color: #118de3;
 }
 .artwork-solo img {
   object-fit: fill;
@@ -309,6 +309,7 @@ a {
 }
 
 .apropos {
+  background-color: #118de3;
   position: absolute;
   top: 750px;
   width: 366px;
@@ -337,6 +338,10 @@ a {
   text-align: start;
   font-family: "open";
   border-radius: 5px 5px 5px 5px;
+}
+
+.heart-like {
+  color: #212529;
 }
 /*-----------------1221--------------------------
 #Section hero
