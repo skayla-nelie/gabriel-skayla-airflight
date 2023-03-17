@@ -84,14 +84,17 @@ body {
   padding: 0 15px 0 15px;
   color: #347add;
 }
-.swiper-wrapper {
-  position: relative;
-  top: 10px;
-  width: auto;
+.inst {
+  width: 400px;
 }
-.swiper-slide {
+.swiper-filters .swiper-wrapper {
   position: relative;
   top: 10px;
+}
+.swiper-filters .swiper-wrapper .swiper-slide {
+  position: relative;
+  top: 10px;
+  text-align: center;
   width: auto;
 }
 .tim {
@@ -194,8 +197,7 @@ footer {
   color: #118de3;
 }
 #cards {
-  width: 140%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #other .card {
   width: 376px;
