@@ -10,6 +10,8 @@
 }
 
 footer {
+  position: relative;
+  bottom: -1000px;
   background-color: #3b5fb1;
   box-shadow: 0 -4px 20px -5px black;
   padding: 1rem;
@@ -29,7 +31,7 @@ footer {
 body {
   background-color: #0d82e12c;
   height: 1695px;
-  width: auto;
+  width: 100%;
   margin: 0;
 }
 
@@ -148,7 +150,7 @@ main {
 }
 footer {
   position: absolute;
-
+  height: 25%;
   font-size: 12px;
   text-align: center;
   padding: 20px 16px 20px 16px;
@@ -273,18 +275,68 @@ a {
 .multiverse {
   padding-left: 10px;
   font-size: large;
+  font-family: "beats";
+  letter-spacing: 2px;
+  font-weight: bolder;
 }
 
 .artwork-solo {
   position: absolute;
   top: 300px;
   width: 366px;
+  height: 400px;
   text-align: start;
+  font-family: "open";
+  border-radius: 5px 5px 5px 5px;
+}
+.artiste {
+  position: absolute;
+  top: 270px;
+  width: 366px;
+  height: 30px;
+  color: #fff;
+  text-align: start;
+  font-family: "open";
+  border-radius: 5px 5px 5px 5px;
+}
+.artwork-solo img {
+  object-fit: fill;
+  width: 365px;
+  border-radius: 5px 5px 0 0;
+}
+.modal-body .card-text {
   font-family: "open";
 }
 
-.modal-body .card-text {
+.apropos {
+  position: absolute;
+  top: 750px;
+  width: 366px;
+  height: 30px;
+  color: #fff;
+  text-align: start;
   font-family: "open";
+  border-radius: 5px 5px 5px 5px;
+}
+.description {
+  position: absolute;
+  top: 800px;
+  width: 366px;
+  height: 310px;
+  color: #6e6e6f;
+  text-align: start;
+  font-family: "open";
+  border-radius: 5px 5px 5px 5px;
+}
+.accordion-item {
+  position: absolute;
+  top: 1150px;
+  width: 366px;
+  height: 55px;
+  color: #6e6e6f;
+  text-align: start;
+  font-family: "open";
+  border-radius: 5px 5px 5px 5px;
 }
 /*-----------------1221--------------------------
 #Section hero
